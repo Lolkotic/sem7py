@@ -8,13 +8,13 @@
 
 from time import sleep
 
-class traffic_lights:
+class Traffic_lights:
     color = ['red', 'yellow', 'green']
 
     def launch(self):
         i = 0
         while i != 3:
-            print(TrafficLights.color[i])
+            print(Traffic_lights.color[i])
             if i == 0:
                 sleep(7)
             elif i == 1:
@@ -24,6 +24,6 @@ class traffic_lights:
             i += 1
 
 
-tl = traffic_lights()
+tl = Traffic_lights()
 tl.launch()
 
